@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+
+:root{
+    --AlmostWhite: hsl(0, 0%, 98%);
+    --MediumGray: hsl(0, 0%, 41%);  
+    --AlmostBlack: hsl(0, 0%, 8%);
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    height: 50px;
+    width: 100px;
+}
+
+.leftNav{
+    border: solid 1px;
+    padding: 30px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    word-spacing: 55px;
+}
+
+.navText{
+    border: 1px solid;
+    margin-left: 50px;
+    font-size: large;
+}
+
+
+.rightNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 20%;
+}
+
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-right: 30px;
+    height: 30px;
+    width: 130px;
+    padding: 20px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 130px;
+    height: 30px;
+    padding: 20px;
+}
+
+.bodyContainer{
+    display: flex;
+    border: 1px solid green;
+    height:100%;
+    width: 100%;
+}
+
+.leftBody{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    padding: 50px;
+    width: 50%;
+    height: 800px;
+}
+
+.bodyTitle{
+    border: 1px solid blue;
+    height: 160px;
+    width: 470px;
+    font-size: 70px;
+    align-self: center;
+}
+
+.bodyDesc{
+    align-self: center;
+    border: 1px solid blue;
+    width: 430px;
+    height: 85px;
+    line-height: 25px;
+    color: var(--MediumGray);
+}
+
+.rightBody{
+    border: 1px solid aqua;
+    height: 800px;
+    width: 40%;
+    background-image: url(./images/image-hero-desktop.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
